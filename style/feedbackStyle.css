@@ -1,0 +1,28 @@
+.feedback-class {
+  width: 100%;
+}
+.feedback-class .text {
+  text-align: center;
+  font-size: 45px;
+  margin: -10px 0 40px 0;
+}
+.feedback-class .form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.feedback-class .form .information {
+  text-indent: 2em;
+  line-height: 110%;
+  margin: 10px 0;
+  width: 385px;
+  height: 50px;
+  outline: none;
+  font-size: 18px;
+  border: none;
+  border-bottom: lightgray 1px solid;
+}
+.feedback-class .form .button {
+  margin-top: 30px;
+}
+/*# sourceMappingURL=feedbackStyle.css.map */

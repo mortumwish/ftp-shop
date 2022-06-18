@@ -1,0 +1,69 @@
+.sec1 {
+  justify-content: center;
+  margin-top: 50px;
+}
+.sec1 .itemCard {
+  width: 1100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.sec1 .itemCard .images {
+  display: flex;
+  flex-direction: row;
+}
+.sec1 .itemCard .images .mainImage {
+  height: 450px;
+  width: 450px;
+  object-fit: contain;
+  margin-right: 50px;
+}
+.sec1 .itemCard .images .secondaryImages {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.sec1 .itemCard .images .secondaryImages img:hover {
+  transition: all 0.4s;
+  opacity: 70%;
+}
+.sec1 .itemCard .images .secondaryImages img {
+  transition: all 0.4s;
+  height: 100px;
+  width: 100px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+.sec1 .itemCard .information {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+.sec1 .itemCard .information .soldOut {
+  background-color: lightgray;
+  color: #828282;
+}
+.sec1 .itemCard .information .brand {
+  font-size: 40px;
+}
+.sec1 .itemCard .information .name {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.sec1 .itemCard .information .price {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.sec1 .itemCard .information .sizeList {
+  height: 40px;
+  width: 130px;
+  font-size: 17px;
+  border: none;
+  outline: none;
+  margin-bottom: 20px;
+}
+.sec1 .itemCard .information .description {
+  margin-top: 30px;
+  font-size: 16px;
+}
+/*# sourceMappingURL=itemStyle.css.map */

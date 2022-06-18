@@ -1,0 +1,50 @@
+main .sec1 {
+  display: flex;
+  justify-content: center;
+}
+main .sec1 .price-class .blocks .block {
+  align-items: center;
+}
+main .sec1 .price-class .blocks .block .picture {
+  position: relative;
+}
+main .sec1 .price-class .blocks .block .picture img {
+  transition: all 0.3s;
+}
+main .sec1 .price-class .blocks .block .picture img:hover {
+  transition: all 0.3s;
+  opacity: 80%;
+}
+main .sec1 .price-class .blocks .block .description {
+  font-size: 16px;
+}
+main .sec1 .price-class .blocks .block .description .priceOfItem {
+  line-height: 40px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.imageSoldOut {
+  opacity: 70%;
+}
+.badgeSoldOut {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 60px;
+  height: 60px;
+  background-color: #888888;
+  margin-left: -30px;
+  margin-top: -30px;
+  display: flex;
+}
+.badgeSoldOut span {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+}
+/*# sourceMappingURL=priceStyle.css.map */

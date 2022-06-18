@@ -1,0 +1,171 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, sans-serif;
+}
+a:hover,
+.button,
+.secondaryImages {
+  cursor: url("../img/cursor.cur"), progress !important;
+}
+body {
+  width: auto;
+  height: auto;
+}
+body .button {
+  width: 190px;
+  height: 50px;
+  background: white;
+  border-radius: 10px;
+  border: lightgray 1px solid;
+  outline: none;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  color: #636363;
+  justify-content: space-around;
+  transition-duration: 0.25s;
+}
+body .button:hover {
+  background-color: lightgray;
+}
+body .button:active {
+  background-color: gray;
+  color: lightgray;
+}
+body .wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+body .wrapper header .menu {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  justify-content: space-between;
+}
+body .wrapper header .menu .logo {
+  display: flex;
+}
+body .wrapper header .menu .logo img {
+  height: 50px;
+}
+body .wrapper header .menu .links {
+  display: flex;
+  margin-right: 35px;
+  font-size: 20px;
+}
+body .wrapper header .menu .links a {
+  margin: 0 20px;
+  text-decoration: none;
+  color: black;
+}
+body .wrapper header .menu .links a:hover {
+  color: #919191;
+}
+body .wrapper header .menu .links .active {
+  font-weight: bold;
+}
+body .wrapper main {
+  width: 100%;
+}
+body .wrapper main .sec1 {
+  display: flex;
+}
+body .wrapper main .sec1 .content {
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+}
+body .wrapper main .sec1 .content .top {
+  font-size: 45px;
+  margin: 30px;
+}
+body .wrapper main .sec1 .content img {
+  height: 700px;
+}
+body .wrapper main .sec1 .price-class {
+  width: 90%;
+}
+body .wrapper main .sec1 .price-class .text {
+  text-align: center;
+  font-size: 45px;
+  margin: 10px 0 40px 0;
+}
+body .wrapper main .sec1 .price-class .blocks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+body .wrapper main .sec1 .price-class .blocks .block {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding-bottom: 40px;
+}
+body .wrapper main .sec1 .price-class .blocks .block .description {
+  text-align: center;
+  margin: 10px 0 10px 0;
+  width: 217.2px;
+}
+body .wrapper main .sec1 .price-class .blocks .block img {
+  margin-top: 20px;
+  height: 220px;
+  width: 217.2px;
+  object-fit: contain;
+}
+body .wrapper main .sec1 .contact-class {
+  width: 100%;
+}
+body .wrapper main .sec1 .contact-class .head {
+  text-align: center;
+  font-size: 45px;
+  margin: 10px 0 40px 0;
+}
+body .wrapper main .sec1 .contact-class .block {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body .wrapper main .sec1 .contact-class .block .text {
+  font-size: 17px;
+}
+body .wrapper main .sec1 .contact-class .block img {
+  height: 300px;
+}
+body .wrapper main .sec2 .content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto 0 auto;
+}
+body .wrapper main .sec2 .content .header-text {
+  font-size: 45px;
+}
+body .wrapper main .sec2 .content .body-text {
+  word-spacing: 7px;
+  margin-top: 40px;
+  font-size: 20px;
+  line-height: 33px;
+}
+body .wrapper main .sec2 .content .body-text p {
+  text-indent: 3em;
+}
+body .wrapper main .sec2 .content img {
+  margin-top: 60px;
+  width: 100%;
+  margin-bottom: 60px;
+}
+body .wrapper .footer {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  color: #8b8b8b;
+}
+body .wrapper .footer .text {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+/*# sourceMappingURL=style.css.map */
